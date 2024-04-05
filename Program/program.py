@@ -1,4 +1,6 @@
-""" This sketch utilizes the buzzer to play songs. The Raspberry's 'freq()' command plays notes of a given frequency, while 'duty_u16()' set the current duty cycle of the PWM output as an unsigned 16-bit value in the range 0 to 65535 inclusive.
+""" This sketch utilizes the buzzer to play songs. The Raspberry's 'freq()' command plays notes of a 
+given frequency, while 'duty_u16()' set the current duty cycle of the 
+PWM output as an unsigned 16-bit value in the range 0 to 65535 inclusive.
 
 There's a function that takes note characters
 and returns the corresponding frequency from this table:
