@@ -44,7 +44,7 @@ frequencies = {
     'J': 740, 'G': 784, 'A': 880, 'V': 1047, 'U': 622
 }
 
-buzzer = PWM(Pin())
+buzzer = PWM(Pin()) # Buzzer pin on board
     
 def playSong():
     notesList = list(notes)
