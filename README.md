@@ -1,2 +1,2 @@
-# Raspberry_MicroPython_MarioTheme
+# Raspberry MicroPython MarioTheme
     SuperMario's music theme using Raspberry pi pico MicroPython
