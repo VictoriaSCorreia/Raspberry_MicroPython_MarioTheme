@@ -43,11 +43,11 @@ frequencies = {
     'b': 466, 'h': 494, 'C': 523, 'D': 587, 'S': 622, 'E': 659, 'F': 698,
     'J': 740, 'G': 784, 'A': 880, 'V': 1047, 'U': 622
 }
-
 buzzer = PWM(Pin()) # Buzzer pin on board
     
 def playSong():
     notesList = list(notes)
+  
     for i in range(songLength):
         duration = beats[i] * tempo / 800
         if notesList[i] == ' ':       
