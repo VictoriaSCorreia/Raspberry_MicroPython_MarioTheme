@@ -26,7 +26,7 @@ and returns the corresponding frequency from this table:
   A     880 Hz
   V     1047 Hz
   
-  super mario theme song link: https://youtu.be/NTa6Xbzfq1U?si=ocevOTef4G9sJV_Z
+super mario theme song link: https://youtu.be/NTa6Xbzfq1U?si=ocevOTef4G9sJV_Z
 For more information, see https://docs.micropython.org/en/latest/library/machine.PWM.html """
 
 
